@@ -1,0 +1,56 @@
+{
+  "kind": "SIMULATED_DIAGNOSTIC_SNAPSHOT",
+  "domain": "https://example.test",
+  "measurements": "Учебные сведения, НЕ реальные замеры",
+  "urls": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/services/",
+      "status": 200,
+      "robots": "noindex"
+    },
+    {
+      "path": "/catalog/",
+      "status": 200,
+      "title": "Мастерская Север — услуги"
+    },
+    {
+      "path": "/catalog/item-a/",
+      "status": 200,
+      "canonical": "https://example.test/"
+    },
+    {
+      "path": "/blog/",
+      "status": 200
+    },
+    {
+      "path": "/blog/seo-guide/",
+      "status": 404,
+      "internal_links": 2
+    },
+    {
+      "path": "/prices-old/",
+      "status": 301,
+      "location": "/prices/"
+    },
+    {
+      "path": "/prices/",
+      "status": 200
+    },
+    {
+      "path": "/private/",
+      "status": 200,
+      "robots_disallow": true
+    }
+  ],
+  "catalog_image": {
+    "size_mb": 3.84,
+    "dimensions": "4200x2800",
+    "display_width_px": 600
+  },
+  "sample_load_seconds": 4.2,
+  "measurement_context": "не указан"
+}
